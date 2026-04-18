@@ -76,4 +76,4 @@ El taller señala que simplemente validar el código no es suficiente para garan
 
 **Trazabilidad por commit:** El canal de procesamiento asigna dos etiquetas a la imagen: `latest` y el SHA del commit que la generó. Esto posibilita que en cualquier momento se pueda conocer cuál versión del código está funcionando en producción y, si fuese requerido, revertir a una imagen previa.
 
-**Preparación para despliegues modernos:** Este enfoque _"nos capacita para prácticas modernas de despliegue"_ como indica el taller. La aplicación puede ser ejecutada en cualquier entorno con Docker sin requerir la configuración de Python ni la instalación manual de dependencias, lo que permite una integración más sencilla con orquestadores y procesos de entrega continua..
+**Preparación para despliegues modernos:** Este enfoque _"nos capacita para prácticas modernas de despliegue"_ como indica el taller. La aplicación puede ser ejecutada en cualquier entorno con Docker sin requerir la configuración de Python ni la instalación manual de dependencias, lo que permite una integración más sencilla con orquestadores y procesos de entrega continua.
