@@ -11,7 +11,7 @@ def index():
 
 
 @app.route("/", methods=["POST"])
-def index():
+def calcular():
     resultado = None
     if request.method == "POST":
         try:
