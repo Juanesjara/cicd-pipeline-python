@@ -7,32 +7,40 @@ aritméticas simples como suma, resta, multiplicación y división.
 Incluye validación para evitar divisiones por cero.
 
 Módulo de operaciones matemáticas básicas.
-
-Funciones disponibles:
-- sumar(a, b): retorna la suma de dos números
-- restar(a, b): retorna la resta de dos números
-- multiplicar(a, b): retorna el producto de dos números
-- dividir(a, b): retorna la división de dos números
-
-Lanza:
-- ZeroDivisionError: si se intenta dividir por cero.
-
-Autor: Tu Nombre
 """
 
 AUTOR = "defrancov, jlmurillob, jejaramilr"
+
+"""
+- sumar(a, b): retorna la suma de dos números
+"""
 
 
 def sumar(a, b):
     return a + b
 
 
+"""
+- restar(a, b): retorna la resta de dos números
+"""
+
+
 def restar(a, b):
     return a - b
 
 
+"""
+- multiplicar(a, b): retorna el producto de dos números
+"""
+
+
 def multiplicar(a, b):
     return a * b
+
+
+"""
+- dividir(a, b): retorna la división de dos números
+"""
 
 
 def dividir(a, b):
