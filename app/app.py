@@ -1,3 +1,7 @@
+"""
+Aplicación principal Flask para la calculadora.
+Maneja rutas y operaciones básicas (suma, resta, etc.).
+"""
 # app/app.py
 from flask import Flask, render_template, request
 from .calculadora import sumar, restar, multiplicar, dividir
@@ -7,11 +11,13 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def index():
+    """Muestra la página principal."""
     return render_template("index.html", resultado=None)
 
 
 @app.route("/", methods=["POST"])
 def calcular():
+    """Procesa el formulario y realiza la operación seleccionada."""
     resultado = None
     if request.method == "POST":
         try:
