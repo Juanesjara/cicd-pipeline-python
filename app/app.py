@@ -2,6 +2,7 @@
 Aplicación principal Flask para la calculadora.
 Maneja rutas y operaciones básicas (suma, resta, etc.).
 """
+
 # app/app.py
 from flask import Flask, render_template, request
 from .calculadora import sumar, restar, multiplicar, dividir
