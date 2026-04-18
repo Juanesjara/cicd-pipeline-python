@@ -20,7 +20,7 @@ def index():
 
             if operacion == "sumar":
                 resultado = sumar(num1, num2)
-            elif operacion == "restar":S
+            elif operacion == "restar":
                 resultado = restar(num1, num2)
             elif operacion == "multiplicar":
                 resultado = multiplicar(num1, num2)
