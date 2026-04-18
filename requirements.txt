@@ -1,0 +1,12 @@
+pylint
+flake8
+black
+pytest
+coverage
+selenium
+webdriver-manager
+flask
+pytest-cov
+pytest-html
+gunicorn
+sadadgit
