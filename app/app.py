@@ -4,8 +4,12 @@ from .calculadora import sumar, restar, multiplicar, dividir
 
 app = Flask(__name__)
 
+@app.route("/", methods=["GET"])
+def index():
+    return render_template("index.html", resultado=None)
 
-@app.route("/", methods=["GET", "POST"])
+
+@app.route("/", methods=["POST"])
 def index():
     resultado = None
     if request.method == "POST":
@@ -16,7 +20,7 @@ def index():
 
             if operacion == "sumar":
                 resultado = sumar(num1, num2)
-            elif operacion == "restar":
+            elif operacion == "restar":S
                 resultado = restar(num1, num2)
             elif operacion == "multiplicar":
                 resultado = multiplicar(num1, num2)
