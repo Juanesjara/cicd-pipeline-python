@@ -11,39 +11,24 @@ Módulo de operaciones matemáticas básicas.
 
 AUTOR = "defrancov, jlmurillob, jejaramilr"
 
-"""
-- sumar(a, b): retorna la suma de dos números
-"""
-
 
 def sumar(a, b):
+    """- sumar(a, b): retorna la suma de dos números"""
     return a + b
 
 
-"""
-- restar(a, b): retorna la resta de dos números
-"""
-
-
 def restar(a, b):
+    """- restar(a, b): retorna la resta de dos números"""
     return a - b
 
 
-"""
-- multiplicar(a, b): retorna el producto de dos números
-"""
-
-
 def multiplicar(a, b):
+    """- multiplicar(a, b): retorna el producto de dos números"""
     return a * b
 
 
-"""
-- dividir(a, b): retorna la división de dos números
-"""
-
-
 def dividir(a, b):
+    """- dividir(a, b): retorna la división de dos números"""
     if b == 0:
         raise ZeroDivisionError("No se puede dividir por cero")
     return a / b
