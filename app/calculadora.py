@@ -1,6 +1,26 @@
 # app/calculadora.py
+"""
+Módulo de operaciones matemáticas básicas.
 
-AUTOR = "???"  # IMPORTANTE: Reemplaza con tu nombre completo (debe coincidir con el nombre que uses en cualquier otro identificador del proyecto. Sugerencia: Usuario de correo de EAFIT)
+Este módulo proporciona funciones para realizar operaciones
+aritméticas simples como suma, resta, multiplicación y división.
+Incluye validación para evitar divisiones por cero.
+
+Módulo de operaciones matemáticas básicas.
+
+Funciones disponibles:
+- sumar(a, b): retorna la suma de dos números
+- restar(a, b): retorna la resta de dos números
+- multiplicar(a, b): retorna el producto de dos números
+- dividir(a, b): retorna la división de dos números
+
+Lanza:
+- ZeroDivisionError: si se intenta dividir por cero.
+
+Autor: Tu Nombre
+"""
+
+AUTOR = "defrancov, jlmurillob, jejaramilr"
 
 
 def sumar(a, b):
